@@ -1,0 +1,50 @@
+/content/documents/FirstProject/testediotrbundle:
+  .meta:order-before: test24
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: 3b81fa92-07de-4d27-80c6-3f970117a9af
+  hippo:name: TestEdiotrBundle
+  hippo:versionHistory: 97cd0174-9092-4d98-854b-e9909c05b817
+  /testediotrbundle[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 7f77ef14-d97c-4f98-8f0a-2255250805c2
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: editor
+    hippostdpubwf:creationDate: 2022-10-22T21:07:24.754+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-22T21:07:24.754+05:30
+    hippostdpubwf:lastModifiedBy: editor
+    resourcebundle:descriptions: [Test Editor Document]
+    resourcebundle:id: test Id editor
+    resourcebundle:keys: [TestEditorBundle]
+    resourcebundle:messages: [test]
+  /testediotrbundle[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: aa953ac7-75c1-4f0a-8841-ec4bcb30e29a
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: editor
+    hippostdpubwf:creationDate: 2022-10-22T21:07:24.754+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-22T21:07:49.493+05:30
+    hippostdpubwf:lastModifiedBy: editor
+    resourcebundle:descriptions: [Test Editor Document]
+    resourcebundle:id: test Id editor
+    resourcebundle:keys: [TestEditorBundle]
+    resourcebundle:messages: [test]
+  /testediotrbundle[3]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 0bb20ab8-7d1a-4116-8b43-a794fc1b4ee0
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: editor
+    hippostdpubwf:creationDate: 2022-10-22T21:07:24.754+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-22T21:07:49.493+05:30
+    hippostdpubwf:lastModifiedBy: editor
+    hippostdpubwf:publicationDate: 2022-10-22T21:10:00.191+05:30
+    resourcebundle:descriptions: [Test Editor Document]
+    resourcebundle:id: test Id editor
+    resourcebundle:keys: [TestEditorBundle]
+    resourcebundle:messages: [test]

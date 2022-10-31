@@ -1,0 +1,50 @@
+/content/documents/FirstProject/testadmindocument:
+  .meta:order-before: test24
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: c1a08a21-a27a-49b9-83e0-5308b6231dea
+  hippo:name: TestAdminDocument
+  hippo:versionHistory: 6532ac87-f58a-4b21-9039-7a4d80dd7051
+  /testadmindocument[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 1fa7faaa-8a70-4b9c-a730-6db619e50834
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2022-10-22T21:03:59.896+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-22T21:03:59.896+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:descriptions: [test description]
+    resourcebundle:id: admintestID
+    resourcebundle:keys: [testadmin]
+    resourcebundle:messages: [test]
+  /testadmindocument[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: ff60d10f-051f-4b9f-a93c-e973794af7a4
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2022-10-22T21:03:59.896+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-22T21:04:30.401+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:descriptions: [test description]
+    resourcebundle:id: admintestID
+    resourcebundle:keys: [testadmin]
+    resourcebundle:messages: [test]
+  /testadmindocument[3]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: b6e4156b-181c-4922-9304-55e1b68d2c1c
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2022-10-22T21:03:59.896+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-22T21:04:30.401+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2022-10-26T12:39:07.208+05:30
+    resourcebundle:descriptions: [test description]
+    resourcebundle:id: admintestID
+    resourcebundle:keys: [testadmin]
+    resourcebundle:messages: [test]

@@ -1,0 +1,58 @@
+/content/documents/FirstProject/new-document-for-test:
+  .meta:order-before: document1666610353241
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: fa056b67-bded-4414-b73e-e630eaa8d251
+  hippo:name: new document for test
+  hippo:versionHistory: a912c753-1ad9-4e18-916b-5db506e3314d
+  /new-document-for-test[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 8dfc09c9-b1ca-4cc2-8776-e9b401521c2c
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: author
+    hippostdpubwf:creationDate: 2022-10-22T18:29:52.246+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-22T18:29:52.246+05:30
+    hippostdpubwf:lastModifiedBy: author
+    resourcebundle:descriptions: [test description, test description]
+    resourcebundle:id: second document
+    resourcebundle:keys: [test second publication, testsecondkey]
+    resourcebundle:messages: [test, testsecond]
+  /new-document-for-test[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 4499d724-ff24-412e-be8b-3bb6441754ef
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: author
+    hippostdpubwf:creationDate: 2022-10-22T18:29:52.246+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-22T18:33:29.997+05:30
+    hippostdpubwf:lastModifiedBy: author
+    resourcebundle:descriptions: [test description, test description]
+    resourcebundle:id: second document
+    resourcebundle:keys: [test second publication, testsecondkey]
+    resourcebundle:messages: [test, testsecond]
+  /hippo:request:
+    jcr:primaryType: hippostdpubwf:request
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 30907360-c00d-4a4a-8a42-6764da8a8cfc
+    hippostdpubwf:creationDate: 2022-10-22T18:33:34.615+05:30
+    hippostdpubwf:reason: test reject request
+    hippostdpubwf:type: rejected
+    hippostdpubwf:username: author
+  /new-document-for-test[3]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 630d89b7-b58e-4683-bf1a-1fbe08dde0d0
+    hippo:availability: []
+    hippostd:state: published
+    hippostdpubwf:createdBy: author
+    hippostdpubwf:creationDate: 2022-10-22T18:29:52.246+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-22T18:33:29.997+05:30
+    hippostdpubwf:lastModifiedBy: author
+    hippostdpubwf:publicationDate: 2022-10-23T13:06:47.070+05:30
+    resourcebundle:descriptions: [test description, test description]
+    resourcebundle:id: second document
+    resourcebundle:keys: [test second publication, testsecondkey]
+    resourcebundle:messages: [test, testsecond]

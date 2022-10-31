@@ -1,0 +1,21 @@
+/content/documents/FirstProject/testeditordocument:
+  .meta:order-before: testediotrbundle
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 2619a617-0ee8-4760-b5ea-6f155434e75e
+  hippo:name: testEditorDocument
+  /testeditordocument:
+    jcr:primaryType: selection:valuelist
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 38de85a6-a0c1-4640-934d-22ab2b769fa9
+    hippo:availability: [live, preview]
+    hippotranslation:id: ce14ba28-8637-45da-bdf2-0052d76413c5
+    hippotranslation:locale: en
+    /selection:listitem[1]:
+      jcr:primaryType: selection:listitem
+      selection:key: testKeyEditor
+      selection:label: TestEditorLabel
+    /selection:listitem[2]:
+      jcr:primaryType: selection:listitem
+      selection:key: TestSecondKey
+      selection:label: TestLabel

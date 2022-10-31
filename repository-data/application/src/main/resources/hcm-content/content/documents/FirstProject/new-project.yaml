@@ -1,0 +1,50 @@
+/content/documents/FirstProject/new-project:
+  .meta:order-before: new-document-for-test
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: d7c7c204-4488-4d13-8ace-a59a6d8f9d45
+  hippo:name: New Project
+  hippo:versionHistory: 0013037a-b7a3-4b36-93aa-c40b30f17656
+  /new-project[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: f187006a-1689-4538-a8f6-76d7bafcdb1b
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: author
+    hippostdpubwf:creationDate: 2022-10-22T18:19:40.002+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-22T18:19:40.002+05:30
+    hippostdpubwf:lastModifiedBy: author
+    resourcebundle:descriptions: [test value description, test second description]
+    resourcebundle:id: testFirstDocument
+    resourcebundle:keys: [testvalue, secondkey]
+    resourcebundle:messages: ['29', '26']
+  /new-project[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 7403fa1e-d477-42e3-afcb-5670f3f0ed14
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: author
+    hippostdpubwf:creationDate: 2022-10-22T18:19:40.002+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-22T18:30:56.069+05:30
+    hippostdpubwf:lastModifiedBy: author
+    resourcebundle:descriptions: [test value description, test second description]
+    resourcebundle:id: testFirstDocument
+    resourcebundle:keys: [testvalue, secondkey]
+    resourcebundle:messages: ['29', '26']
+  /new-project[3]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 461467f3-6c82-4aa8-a772-6fc8fb063bc3
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: author
+    hippostdpubwf:creationDate: 2022-10-22T18:19:40.002+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-22T18:30:56.069+05:30
+    hippostdpubwf:lastModifiedBy: author
+    hippostdpubwf:publicationDate: 2022-10-22T20:47:19.856+05:30
+    resourcebundle:descriptions: [test value description, test second description]
+    resourcebundle:id: testFirstDocument
+    resourcebundle:keys: [testvalue, secondkey]
+    resourcebundle:messages: ['29', '26']

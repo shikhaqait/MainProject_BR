@@ -1,0 +1,7 @@
+group: 
+  name: FirstProject
+  after: hippo-cms
+project: FirstProject
+module: 
+  name: FirstProject-repository-data-development
+  after: FirstProject-repository-data-application

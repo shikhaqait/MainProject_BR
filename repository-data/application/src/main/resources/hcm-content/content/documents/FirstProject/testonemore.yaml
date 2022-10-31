@@ -1,0 +1,50 @@
+/content/documents/FirstProject/testonemore:
+  .meta:order-before: test24
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: 76e6d5d6-3cb5-41cc-a39d-484c00f759fd
+  hippo:name: testOneMore
+  hippo:versionHistory: 422a6391-c775-4eed-a350-e0954bf021f5
+  /testonemore[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: e2f20550-684f-4e25-afbd-e1a27399f042
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2022-10-23T23:31:39.408+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-24T13:39:55.722+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:descriptions: [test]
+    resourcebundle:id: test23oct
+    resourcebundle:keys: [test]
+    resourcebundle:messages: [test]
+  /testonemore[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 50d53d01-43b9-4034-a5ec-cd977b300911
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2022-10-23T23:31:39.408+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-23T23:36:23.315+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:descriptions: [test]
+    resourcebundle:id: test23oct
+    resourcebundle:keys: [test]
+    resourcebundle:messages: [test]
+  /testonemore[3]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 50ceddc8-f8af-45eb-a45e-eba2e546b117
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2022-10-23T23:31:39.408+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-23T23:36:23.315+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2022-10-24T14:02:43.784+05:30
+    resourcebundle:descriptions: [test]
+    resourcebundle:id: test23oct
+    resourcebundle:keys: [test]
+    resourcebundle:messages: [test]

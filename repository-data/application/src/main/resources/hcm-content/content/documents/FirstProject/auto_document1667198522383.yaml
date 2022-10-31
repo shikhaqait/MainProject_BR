@@ -1,0 +1,49 @@
+/content/documents/FirstProject/auto_document1667198522383:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: 955236ab-ef8b-40c6-9818-a55c244bb8ac
+  hippo:name: Auto_Document1667198522383
+  hippo:versionHistory: 19d6f1e4-b5b1-4082-94e1-97faf3af8160
+  /auto_document1667198522383[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 402b9eff-924a-418b-8660-33c3113f9fea
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2022-10-31T12:12:03.303+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-31T12:12:03.303+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:descriptions: [test description]
+    resourcebundle:id: test1844497832129
+    resourcebundle:keys: [test1]
+    resourcebundle:messages: ['001']
+  /auto_document1667198522383[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 94b8da31-97fb-4165-b660-977be0793769
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2022-10-31T12:12:03.303+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-31T12:12:15.471+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:descriptions: [test description]
+    resourcebundle:id: test1844497832129
+    resourcebundle:keys: [test1]
+    resourcebundle:messages: ['001']
+  /auto_document1667198522383[3]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: cd1f772e-f095-48a0-a809-1e0068ba8609
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2022-10-31T12:12:03.303+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-31T12:12:15.471+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2022-10-31T12:12:49.703+05:30
+    resourcebundle:descriptions: [test description]
+    resourcebundle:id: test1844497832129
+    resourcebundle:keys: [test1]
+    resourcebundle:messages: ['001']

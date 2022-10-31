@@ -1,0 +1,17 @@
+/content/documents/FirstProject/test:
+  .meta:order-before: new-project
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: bc1fe2e6-e97e-4fa2-bf01-dfc48a83a34d
+  hippo:name: Test
+  /test:
+    jcr:primaryType: selection:valuelist
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 6135ffc0-8864-445d-85ab-8df0ad07e1b4
+    hippo:availability: [live, preview]
+    hippotranslation:id: 5254a471-889d-4f84-be13-d3cecdd38829
+    hippotranslation:locale: en
+    /selection:listitem:
+      jcr:primaryType: selection:listitem
+      selection:key: Test
+      selection:label: Test

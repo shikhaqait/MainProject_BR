@@ -1,0 +1,34 @@
+/content/documents/FirstProject/document1666769759615:
+  .meta:order-before: auto_document1666771005745
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 6a3434bc-c8db-45e9-bc61-e4fb6cb5a096
+  hippo:name: Document1666769759615
+  /document1666769759615[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: c1c28beb-f3c8-48ef-9e52-6bf01343d4e2
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2022-10-26T13:06:00.311+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-26T13:06:00.311+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:descriptions: [test description]
+    resourcebundle:id: test5989563108745
+    resourcebundle:keys: [test1]
+    resourcebundle:messages: ['001']
+  /document1666769759615[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: d0bba6b7-8999-4b56-ad80-777c927658d2
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2022-10-26T13:06:00.311+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-26T13:06:11.976+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:descriptions: [test description]
+    resourcebundle:id: test5989563108745
+    resourcebundle:keys: [test1]
+    resourcebundle:messages: ['001']

@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    FirstProject:
+      uri: http://www.FirstProject.com/FirstProject/nt/1.0
+      cnd: namespaces/FirstProject.cnd

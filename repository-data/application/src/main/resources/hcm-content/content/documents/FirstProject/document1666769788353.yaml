@@ -1,0 +1,20 @@
+/content/documents/FirstProject/document1666769788353:
+  .meta:order-before: auto_document1666771005745
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 3734a5e4-0ed8-4cb7-9f21-012573f2f048
+  hippo:name: Document1666769788353
+  /document1666769788353:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: a597ddfa-b851-4fa8-bd9b-baac34bca4d7
+    hippo:availability: []
+    hippostd:holder: admin
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2022-10-26T13:06:29.004+05:30
+    hippostdpubwf:lastModificationDate: 2022-10-26T13:06:29.009+05:30
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:id: ''
+    resourcebundle:keys: []
+    resourcebundle:messages: []
